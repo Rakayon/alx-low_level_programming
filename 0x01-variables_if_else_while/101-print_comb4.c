@@ -5,7 +5,7 @@
  *   * two two-digit
  *    * The numbers should range from 0 to 99
  *     * Numbers must be separated by ,followed by a space
- *      * All numbers should be printed with two digits. 1 should be printed as 01
+ * All numbers should be printed with two digits. 1 should be printed as 01
  *       * Return: 0
  */
 
@@ -17,7 +17,7 @@ int main(void)
 
 	while (n1 <= 57)
 	{
-		n2= n1 + 1;
+		n2 = n1 + 1;
 		while (n2 <= 57)
 		{
 			n3 = n2 + 1;
@@ -33,7 +33,7 @@ int main(void)
 				}
 				n3 += 1;
 			}
-			n2 +=1;
+			n2 += 1;
 		}
 		n1 += 1;
 	}
