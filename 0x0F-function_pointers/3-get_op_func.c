@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- *  * get_op_func - Find the proper operator to call the proper function
- *   * @s: Operator to determine proper function to call
- *    * Return: Pointer to function matching operator
+ * get_op_func - Find the proper operator to call the proper function
+ * @s: Operator to determine proper function to call
+ * Return: Pointer to function matching operator
  */
 int (*get_op_func(char *s))(int, int)
 {
