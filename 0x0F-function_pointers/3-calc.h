@@ -1,10 +1,10 @@
 #ifndef CALC
 #define CALC
 /**
- *  * struct op - Struct op
- *   * @op: The operator
- *    * @f: The function of that operator
- *     */
+ * struct op - Struct op
+ * @op: The operator
+ * @f: The function of that operator
+ */
 typedef struct op
 {
 	char *op;
