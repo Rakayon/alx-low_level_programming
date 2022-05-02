@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * create_file - function to create a file
- * @filename: file
- * @text_content: number of letters of the file
- * Return: numbers of letters or zero it fails
+ *  * create_file - function to create a file
+ *   * @filename: file
+ *    * @text_content: number of letters of the file
+ *     * Return: numbers of letters or zero it fails
  */
 int create_file(const char *filename, char *text_content)
 {
@@ -25,7 +25,6 @@ int create_file(const char *filename, char *text_content)
 	writ = write(fd, text_content, size);
 	if (writ == -1)
 		return (-1);
-
-	close(fd);
+												close(fd);
 	return (1);
 }

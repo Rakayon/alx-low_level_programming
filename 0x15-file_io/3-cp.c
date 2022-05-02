@@ -1,10 +1,10 @@
 #include "main.h"
 #define BUFFLEN (1024)
 /**
- * main- function av y av
- * @ac: file
- * @av: number of letters of the file
- * Return: numbers of letters or zero it fails
+ *  * main- function av y av
+ *   * @ac: file
+ *    * @av: number of letters of the file
+ *     * Return: numbers of letters or zero it fails
  */
 int main(int ac, char *av[])
 {

@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * append_text_to_file- function to create a file
- * @filename: file
- * @text_content: number of letters of the file
- * Return: numbers of letters or zero it fails
+ *  * append_text_to_file- function to create a file
+ *   * @filename: file
+ *    * @text_content: number of letters of the file
+ *     * Return: numbers of letters or zero it fails
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
